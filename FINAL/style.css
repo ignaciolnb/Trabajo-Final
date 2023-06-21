@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/*MENU Y SECCION 1*/
+
+.seccion1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+}
+
+#presentacion {
+    background-color: rgb(100, 12, 12);
+    width: 1520px;
+    height: 1000px;
+    position: relative;
+    background: rgba(0, 0, 0, 50%)url(/FOTOS/PRESENTACION.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.menu {
+    width: 1520px;
+}
+
+.menu img {
+    width: 60px;
+}
+
+.menu a {
+    margin: 0 50px 0 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu #links {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    background-color: rgb(0, 0, 0, 30%)
+}
+
+
+a:hover {
+    color: red;
+}
+
+#emotions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+#emotions h1 {
+    color: aliceblue;
+    font-size: 9em
+}
+
+#fury {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 100px;
+    background-color: rgba(164, 1, 1, 0.3);
+}
+
+#fury h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+/*SECCION 2 - BUZOS*/
+
+.coleccion {
+    background-color: #000000;
+    text-align: center;
+}
+
+.coleccion h1 {
+    font-size: 3em;
+    padding: 30px;
+}
+
+.seccion2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#contenedor {
+    width: 1520px;
+    height: 770px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+}
+
+.carrusel {
+    position: relative;
+}
+
+.comprar {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 60px;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;
+    position: absolute;
+    font-size: 1.5em;
+    top: 720px;
+    left: 140px;
+}
+
+.carrusel h2 {
+    font-size: 2em;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/*seccion 3*/
+#galeria {
+    background-color: #000000;
+}
+
+#galeria h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px;
+}
+
+.seccion3 {
+    width: 100%;
+    height: 1300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1520px;
+    height: 1300px;
+    gap: 10px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+/*SECCION4 - DESARROLLADOR*/
+
+.seccion4 {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.desarrollador {
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.desarrollador img {
+    width: 100%;
+}
+
+.texto {
+    width: 900px;
+    color: #000000;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    text-align: right;
+}
+
+.texto h1 {
+    color: #a00d0d;
+    font-size: 4em;
+}
+
+.texto h2 {
+    font-size: 2.98em;
+    margin-top: 10px;
+}
+
+.texto p {
+    font-size: 2em;
+    margin: 30px 0 0px 0;
+}
+
+.texto h3 {
+    margin-bottom: 20px;
+    font-size: 1.65em;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #831212;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.redes-sociales {
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales img {
+    width: 60px;
+    margin: 24px;
+    cursor: pointer;
+}
+
+/*LOG IN*/
+
+.seccion1-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#login {
+    background-color: rgb(100, 12, 12);
+    width: 1520px;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 50%)url(/FOTOS/login.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+fieldset {
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    border: 3px solid black;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+.inicio h1 {
+    color: #ffffff;
+    font-size: 2.4em;
+    margin-bottom: 40px;
+}
+
+#inicio-sesion .uyc {
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 0 10px 0;
+    background-color: #5d0000;
+}
+
+.enviar {
+    width: 149px;
+    text-align: center;
+    height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.5px 0 1.5px;
+    border-radius: 5px;
+}
+
+.enviar a:hover {
+    color: rgb(255, 0, 0);
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    height: fit-content;
+    padding: 7px;
+
+}
+
+input[type="submit"]:hover {
+    color: rgb(255, 0, 0);
+}
+
+.enviar a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 2.5px;
+}
+
+#centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 650px
+}
+
+.ayuda {
+    width: 305px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ayuda a {
+    text-decoration: none;
+    color: rgb(210, 95, 95);
+}
+
+.ayuda a:hover {
+    color: #ffffff;
+}
+
+/*REGISTER*/
+
+.seccion1-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#register {
+    background-color: rgb(100, 12, 12);
+    width: 1520px;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 50%)url(/FOTOS/register.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+.registro {
+    text-align: center;
+}
+
+.registro h1 {
+    color: #ffffff;
+    font-size: 2.4em;
+    margin-bottom: 40px;
+}
+
+label {
+    color: white;
+}
+
+#register-usuario fieldset {
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    border: 3px solid black;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+.lados {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.lado-izq {
+    width: 40%;
+}
+
+.lado-der {
+    width: 50%;
+}
+
+
+.reg {
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #5d0000;
+}
+
+.forms {
+    margin: 0 5px 10px 0
+}
+
+.lista {
+    margin: 0;
+    width: 100%;
+}
+
+input {
+    margin: 5px 0 5px 0;
+}
+
+select {
+    margin: 5px 0 5px 0;
+    color: gray;
+}
+
+.listas {
+    width: 100%;
+}
+
+.genero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+#centrar-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 800px
+}
+
+#validar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(210, 95, 95);
+}
+
+#validar a {
+    color: white;
+}
+
+#validar a:hover {
+    color: red;
+}
+
+::placeholder {
+    color: gray;
+}
+
+option {
+    color: gray;
+}
+
+input[type="date"] {
+    color: gray;
+}
+
+
+/*ENCUESTA AL PUBLICO*/
+
+.seccion1-encuesta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#encuesta {
+    background-color: rgb(100, 12, 12);
+    width: 1520px;
+    height: 100vh;
+    position: relative;
+    background: rgba(0, 0, 0, 50%)url(/FOTOS/encuesta.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+
+}
+
+#centrar-encuesta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 800px
+}
+
+#publico h1 {
+    color: #ffffff;
+    font-size: 2.4em;
+    margin-bottom: 40px;
+}
+
+#publico {
+    text-align: center;
+}
+
+
+#encuesta fieldset {
+    background-color: rgba(0, 0, 0, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 700px;
+    border: 3px solid black;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.calificacion {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calificacion input {
+    display: none
+}
+
+.calificacion label {
+    float: right;
+    cursor: pointer;
+    color: #ccc;
+    margin: 10px 20px 10px 20px;
+}
+
+.calificacion label:before {
+    content: '★';
+    font-size: 20px;
+    margin: 5px;
+}
+
+.calificacion input:checked~label {
+    color: #ffca08;
+}
+
+#encuesta-publico h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+}
+
+textarea {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.comentario {
+    margin-top: 20px;
+}
+
+
+#encuesta-publico input[type="submit"] {
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 200px;
+}

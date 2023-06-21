@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/FOTOS/PNG/logo png.png">
+    <title>Registro</title>
+</head>
+
+<body>
+    <section class="seccion1-register">
+        <section id="register">
+            <nav class="menu">
+                <div id="links">
+                    <a href="encuesta.html">Encuesta</a>
+                    <a href="index.html#galeria">Galeria</a>
+                    <a href="index.html"><img src="/FOTOS/PNG/logo png.png" alt=""></a>
+                    <a href="Login.html">Iniciar Sesión</a>
+                    <a href="register.html">Registrarse</a>
+                </div>
+            </nav>
+            <section id="centrar-register">
+                <div id="register-usuario">
+                    <fieldset>
+                        <form>
+                            <div class="registro">
+                                <h1>REGISTRAR NUEVA CUENTA</h1>
+                            </div>
+                            <section class="lados">
+                                <section id="lado-izq">
+                                    <div class="forms">
+                                        <label for="Nombre">Nombres:
+                                        </label>
+                                        <br>
+                                        <input type="text" name="Nombre" placeholder="Nombre completo" class="reg nya"
+                                            required>
+                                    </div>
+                                    <div class="forms">
+                                        <label for="username">Nombre de Usuario:</label>
+                                        <br>
+                                        <input type="text" name="username" placeholder="Usuario" class="reg username"
+                                            required>
+                                    </div>
+                                    <div class="forms">
+                                        <label for="email">E-mail de contacto</label>
+                                        <br>
+                                        <input type="email" name="email" placeholder="Ej: (Josecostaros@gmail.com)"
+                                            class="reg email " required>
+                                    </div>
+
+                                </section>
+                                <section class="lado-der">
+                                    <div class="forms">
+                                        <label for="Apellidos">Apellidos:</label>
+                                        <br>
+                                        <input type="text" name="Apellidos" placeholder="Apellido completo"
+                                            class="reg nya" required>
+                                    </div>
+                                    <div class="forms">
+                                        <label for="tel">Numero de celular:</label>
+                                        <br>
+                                        <input type="tel" name="tel" placeholder="Ej: (+54) 380 4952180" class="reg tel"
+                                            required>
+                                    </div>
+                                    <div class="forms">
+                                        <label for="date">Fecha de nacimiento:</label>
+                                        <br>
+                                        <input type="date" name="date" class="reg date">
+                                    </div>
+                                </section>
+                            </section>
+                            <br>
+                            <div class="forms lista">
+                                <label>Provincia donde reside:</label>
+                                <br>
+                                <select class="reg listas" required>
+                                    <option disabled selected>Selecciona una provincia</option>
+                                    <option value="Buenos Aires">Buenos Aires</option>
+                                    <option value="Catamarca">Catamarca</option>
+                                    <option value="Chaco">Chaco</option>
+                                    <option value="Chubut">Chubut</option>
+                                    <option value="Córdoba">Córdoba</option>
+                                    <option value="Corrientes">Corrientes</option>
+                                    <option value="Entre Ríos">Entre Ríos</option>
+                                    <option value="Formosa">Formosa</option>
+                                    <option value="Jujuy">Jujuy</option>
+                                    <option value="La Pampa">La Pampa</option>
+                                    <option value="La Rioja">La Rioja</option>
+                                    <option value="Mendoza">Mendoza</option>
+                                    <option value="Misiones">Misiones</option>
+                                    <option value="Neuquén">Neuquén</option>
+                                    <option value="Río Negro">Río Negro</option>
+                                    <option value="Salta">Salta</option>
+                                    <option value="San Juan">San Juan</option>
+                                    <option value="San Luis">San Luis</option>
+                                    <option value="Santa Cruz">Santa Cruz</option>
+                                    <option value="Santa Fe">Santa Fe</option>
+                                    <option value="Santiago del Estero">Santiago del Estero</option>
+                                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                                    <option value="Tucumán">Tucumán</option>
+                                </select>
+                            </div>
+                            <div class="genero">
+                                <label for="genero">Seleccione genero:</label>
+
+                                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" id="femenino" name="genero" value="femenino" required>
+                                <label for="femenino">Femenino</label>
+                                <style>
+                                    #masculino {
+                                        margin: 3px 5px 5px 30px
+                                    }
+
+                                    #femenino {
+                                        margin: 3px 5px 5px 30px
+                                    }
+                                </style>
+                            </div>
+                            <br>
+                            <div class="forms">
+                                <label for="password">Cree una contraseña:</label>
+                                <br>
+                                <input type="password" name="password" placeholder="Contraseña" class="reg password"
+                                    required>
+                                <input type="password" name="password" placeholder="Confirmar contraseña"
+                                    class="reg password" required>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" value="condiciones"> <label for="condiciones">Acepto terminos y
+                                    condiciones.</label>
+                            </div>
+                            <br>
+                            <div id="validar">
+                                <input id="enviar" type="submit" value="Registrarse" class="enviar">
+                                <P>Si ya creaste o tienes una cuenta <a href="Login.html">inicia sesión</a> aquí.</P>
+                            </div>
+                        </form>
+
+                    </fieldset>
+                </div>
+            </section>
+        </section>
+    </section>
+    <footer>
+
+        <div class="redes-sociales">
+            <a href="https://wa.me/543804206666"><img src="/FOTOS/PNG/Recurso 1.png" alt=""></a>
+            <a href="https://www.instagram.com/furia.store/?hl=es"><img src="/FOTOS/PNG/Recurso 2.png" alt=""></a>
+            <img src="/FOTOS/PNG/Recurso 3.png" alt="">
+            <img src="/FOTOS/PNG/Recurso 4.png" alt="">
+
+        </div>
+        Copyright © 2023 FURIA STORE | All rights reserved
+
+    </footer>
+
+</body>
+
+</html>
